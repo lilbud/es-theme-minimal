@@ -31,6 +31,26 @@ license: creative commons CC-BY-NC-SA
 	
 	</view>
 	
+	<view name="basic">
+		
+		<text name="description" extra="true">
+			<pos>0.061 0.624</pos>
+			<size>0.236 0.200</size>
+			<color>ffffff</color>
+			<fontSize>0.025</fontSize>
+			<text>No Information Available</text>
+			<fontPath>./../assets/noto.ttf</fontPath>
+		</text>	
+		
+		<image name="none" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.1785 0.382</pos>
+			<maxSize>0.236 0.418</maxSize>
+			<path>./../assets/no_boxart.png</path>
+		</image> 
+	
+	</view>
+	
 	<view name="basic, detailed, video">
 	
 		<image name="background" extra="true">
@@ -99,6 +119,7 @@ license: creative commons CC-BY-NC-SA
 			<size>0.236 0.200</size>
 			<color>ffffff</color>
 			<fontSize>0.025</fontSize>
+			<fontPath>./../assets/noto.ttf</fontPath>
 		</text>
 		
 		<image name="logo">
